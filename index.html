@@ -1,0 +1,50 @@
+<html>
+    <title>DEV'S FAMILY BOOK </title>
+    <head>DEV'S FAMILY BOOK</head> 
+    <body> 
+        <h1> Dev's Family Book </h1> 
+        <button type="button" onclick=" slide " id="family_album">Next</button>
+    
+    </body>
+    <style>
+        body {
+          background-color: cyan;
+        }
+        
+        h1 {
+          color: rgb(251, 255, 0);
+          text-align: center;
+        }
+        title {
+          color: rgb(251, 255, 0);
+          text-align: center;
+          font-size: 50 px; }
+        </style>
+   <script>
+       function next(){
+           document.getElementById("b1")
+           name_of_the_FM_array = [] ;
+       }
+       name_of_the_FM_images_array = [
+  "man.jpg",
+  "download.jpg",
+  "download-1.jpg",
+"downloadcopy.jpg"
+];
+
+
+function nextslide()  
+ for(var i = 0; i <= 4;i++){
+
+ 
+   if(i == 4)
+     
+       i=0;
+     
+   
+    document.getElementById("family_album").src = images[i];
+ }
+ 
+       
+   </script>
+</html>
